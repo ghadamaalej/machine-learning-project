@@ -1,0 +1,22 @@
+{
+  "n_features_input": 6,
+  "pca_components": 6,
+  "best_knn_params": {
+    "algorithm": "auto",
+    "leaf_size": 30,
+    "metric": "euclidean",
+    "metric_params": null,
+    "n_jobs": null,
+    "n_neighbors": 19,
+    "p": 2,
+    "weights": "uniform"
+  },
+  "model_performance": {
+    "regular_knn_r2": 0.40125038329335794,
+    "regular_knn_mse": 0.048931187969924815,
+    "grid_search_r2": 0.48313616155754124,
+    "grid_search_mse": 0.042239294903926486,
+    "random_search_r2": 0.4921706720931297,
+    "random_search_mse": 0.04150097404175257
+  }
+}

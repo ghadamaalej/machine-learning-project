@@ -1,0 +1,45 @@
+{
+  "features": [
+    "Depression",
+    "Financial Stress",
+    "Academic Pressure",
+    "Have you ever had suicidal thoughts ?",
+    "Study Satisfaction",
+    "Sleep Duration",
+    "Dietary Habits"
+  ],
+  "input_aliases": {
+    "depression": "Depression",
+    "financial_stress": "Financial Stress",
+    "academic_pressure": "Academic Pressure",
+    "suicidal_thoughts": "Have you ever had suicidal thoughts ?",
+    "study_satisfaction": "Study Satisfaction",
+    "sleep_duration": "Sleep Duration",
+    "dietary_habits": "Dietary Habits"
+  },
+  "cluster_to_group": {
+    "0": "High well-being",
+    "1": "Low well-being"
+  },
+  "recommendations": {
+    "Low well-being": [
+      "Your well-being profile is similar to students who may be experiencing psychological or academic difficulties.",
+      "Schedule a confidential consultation with the university counseling service to discuss stress, anxiety, or burnout signs.",
+      "Participate in guided stress-reduction programs (mindfulness, breathing exercises, time-management sessions).",
+      "Evaluate and adjust study habits: implement regular breaks, realistic workloads, and structured planning.",
+      "Improve sleep hygiene: stable bedtime routine, reduced screen usage at night, avoid late caffeine.",
+      "Strengthen social support: engage with peers, support groups, or student communities to reduce isolation.",
+      "Monitor academic pressure and seek academic advising to redistribute workload or adjust expectations.",
+      "Adopt healthier routines: balanced meals, hydration, physical activity (walking, sport, stretching)."
+    ],
+    "High well-being": [
+      "Your profile matches students who generally maintain strong emotional and academic well-being.",
+      "Continue practicing effective study habits: planning, active learning, and maintaining a healthy balance between work and rest.",
+      "Maintain good sleep and lifestyle routines to support long-term productivity and resilience.",
+      "Engage in enriching activities (clubs, student associations, sports, volunteering) to strengthen social and emotional skills.",
+      "Consider peer-mentoring or leadership roles to positively contribute to the student community.",
+      "Attend optional workshops for personal development (communication, stress management, time management).",
+      "Keep monitoring your well-being; maintaining healthy habits consistently is key to long-term success."
+    ]
+  }
+}
